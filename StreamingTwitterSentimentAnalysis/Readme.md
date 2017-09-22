@@ -12,4 +12,9 @@ Requirements:
 
 If you work off a Windows workstation then I highly recommend that you download and install Aginity Workbench for dashDB.  It is a great tool that provides all the features you could want for working with a database.  It is also much faster than the Bluemix dashboard UI.  https://www.aginity.com/workbench-overview/
 
-Finally, the notebook is expecting that database exists along with a table that has well defined columns.
+Finally, the notebook is expecting that database exists along with a table that has well defined columns.  The DDL for the table is included here and I suggest (not required) the following:
+
+DBName = BLUDB
+Schema = dash5040
+Table = TWEETS
+
